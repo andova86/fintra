@@ -8,6 +8,8 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "browserslist": "^4.13.0",
+    "caniuse-lite": "^1.0.30001096",
     "formik": "^2.1.4",
     "formik-material-ui": "^2.0.1",
     "html-react-parser": "^0.13.0",
