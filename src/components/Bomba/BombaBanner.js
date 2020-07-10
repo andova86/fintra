@@ -37,7 +37,7 @@ const BombaItem = (props) => {
   
       <div className={classes.block}>
         <img src={'/img/bomba1.png'} className={classes.img} style={{height:'100%',width:'100%'}} />
-        <div className={classes.texto_left}>
+        <div className={classes.texto_left} style={{display: 'none'}}>
          <Oferta  numero={"12"} codigo={"BA-859"} desc={"Oferta válida hasta el 12.20.2021"} width="50%"/>
          </div>
         
