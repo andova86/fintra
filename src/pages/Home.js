@@ -7,7 +7,6 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 
 import BannerPrincipal from "../components/Banner/BannerPrincipal";
 
-import BannerW from "../components/Banner/BannerW";
 import Continents from "../containers/Continents/Continents";
 import OfertaText from "../components/Oferta/OfertaText";
 import ImageTittle from "../components/ImageTittle/ImageTittle";
