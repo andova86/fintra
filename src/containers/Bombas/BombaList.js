@@ -34,7 +34,6 @@ const BombaList = (props) => {
     <Grid
       container
       spacing={2}
-      
       justify="center"
       alignItems="center"
       alignContent="center"

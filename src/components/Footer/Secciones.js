@@ -63,6 +63,8 @@ const Secciones = (props) => {
             '&:hover ': {
                 background: '#56bfef',
                 padding: '2px',
+                borderRadius: 2,
+
 
             },
         },

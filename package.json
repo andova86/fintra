@@ -11,7 +11,7 @@
     "@testing-library/user-event": "^7.2.1",
     "browserslist": "^4.13.0",
     "caniuse-lite": "^1.0.30001096",
-    "formik": "^2.1.4",
+    "formik": "^2.1.5",
     "formik-material-ui": "^2.0.1",
     "html-react-parser": "^0.13.0",
     "prop-types": "^15.7.2",

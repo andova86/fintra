@@ -126,17 +126,11 @@ const ImageTittle = (props) => {
         <CssBaseline />
 
         <div className={classes.block}>
-          <img src={props.image} className={classes.img} />
+          <img src={props.image} className={classes.img} alt={'test'}/>
 
           {texto_centro1}
           {texto_abajo1}
           {texto_derecha1}
- 
-          
-         
-
-        
-
 
          
         </div>

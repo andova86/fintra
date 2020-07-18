@@ -49,15 +49,23 @@ const BombaItem = (props) => {
     texto_gris: {
       color: grey[900]
     },
+      ul_list: {
+            listStyle: "none",
+            paddingLeft: 10,
+        },
     paper_item: {
      
 
       '&:hover ': {
         transform: 'translateY(-5%)',
-        transition: "opacity 0.2s ease-out"
+        transition: "opacity 0.9s ease-out"
 
 
     },
+
+        [theme.breakpoints.down('sm')]: {
+                    transform: 'none !important',
+                },
     }
   }));
 
@@ -78,7 +86,7 @@ const BombaItem = (props) => {
          <Grid item xs={12} container className={classes.cuadro_azul}>
              
  
-             <ul >
+             <ul className={classes.ul_list}>
                  <li >
                  <Typography variant="h6" color="initial" >
              {props.number}
