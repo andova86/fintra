@@ -29,7 +29,7 @@ import {MailRounded} from "@material-ui/icons";
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
-        paddingTop: "64px",
+
     },
 
     bloque: {
@@ -91,6 +91,7 @@ const Prueba = () => {
     }
 
     return (
+        <div className={classes.root} >
 
 
         <Formik
@@ -107,15 +108,15 @@ const Prueba = () => {
                         <Grid item md={10} xs={12} container={"xl"} justify={"center"}>
 
 
-                            <Grid item xs={12} container spacing={2}>
-                                <Grid item xs={12} container={"xl"} spacing={3} justify={"center"}>
-                                    <MailRounded color="white" style={{fontSize: 30, paddingLeft:0}} />
-                                    <Typography variant={"h6"}
-                                                style={{paddingBottom: 30, color: 'white', paddingLeft: 5}}>
+                            <Grid item xs={12} container spacing={3}>
+                                <Grid item xs={12} container justify={"flex-start"} style={{ paddingLeft:'0px !important'}} alignItems={'center'}>
+                                    <MailRounded color="white" style={{fontSize: 30, paddingLeft:'0px !important'}} />
+                                    <Typography variant={"body1"}
+                                                style={{ color: 'white', paddingLeft: 5}}>
                                         Contactar Directamente
                                     </Typography>
 
-                                    <Divider variant="middle" color={"primary"}/>
+
                                 </Grid>
 
                                 <Grid item xs={12}>
@@ -184,6 +185,8 @@ const Prueba = () => {
 
             )}
         </Formik>
+
+            </div>
 
     )
 
