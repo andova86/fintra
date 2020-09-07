@@ -32,6 +32,13 @@ import Dialog from "@material-ui/core/Dialog";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogActions from "@material-ui/core/DialogActions";
+import FacebookIcon from "@material-ui/icons/Facebook";
+
+import InstagramIcon from '@material-ui/icons/Instagram';
+import FormControl from "@material-ui/core/FormControl";
+import Select from "@material-ui/core/Select";
+import MenuItem from "@material-ui/core/MenuItem";
+import FormHelperText from "@material-ui/core/FormHelperText";
 
 
 const drawerWidth = 240;
@@ -143,13 +150,42 @@ function ResponsiveDrawer(props) {
         setAnchorEl(null);
     };
 
+    const [age, setAge] = React.useState('es-ES');
+
+  const handleChange = (event) => {
+    setAge(event.target.value);
+  };
+
 
     const drawer = (
         <div>
-            <div className={classes.toolbar}/>
-            <Divider/>
+
+
+
             <List>
-                {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
+                <ListItem >
+
+                     <FormControl className={classes.formControl}>
+        <Select
+          value={age}
+          onChange={handleChange}
+          displayEmpty
+          className={classes.selectEmpty}
+          inputProps={{ 'aria-label': 'Without label' }}
+        >
+
+          <MenuItem value={'es-ES'} alignItems={}><div><InboxIcon/> Español</div></MenuItem>
+          <MenuItem value={'en-US'}>Inglés</MenuItem>
+          <MenuItem value={'fr-FR'}>Frances</MenuItem>
+        </Select>
+        <FormHelperText>Selecciona el Idioma</FormHelperText>
+      </FormControl>
+                </ListItem>
+
+                <Divider />
+
+
+                {['Quienes Somos', 'Productos', 'Contactos'].map((text, index) => (
                     <ListItem button
                               key={text}>
                         <ListItemIcon>{index % 2 === 0 ? <InboxIcon/> : <MailIcon/>}</ListItemIcon>
@@ -157,7 +193,7 @@ function ResponsiveDrawer(props) {
                     </ListItem>
                 ))}
             </List>
-            <Divider/>
+            {/*<Divider/>
             <List>
                 {['All mail', 'Trash', 'Spam'].map((text, index) => (
                     <ListItem button
@@ -166,7 +202,7 @@ function ResponsiveDrawer(props) {
                         <ListItemText primary={text}/>
                     </ListItem>
                 ))}
-            </List>
+            </List>*/}
         </div>
     );
     const preventDefault = (event) => event.preventDefault();

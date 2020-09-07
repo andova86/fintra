@@ -95,7 +95,7 @@ const Contacto = (props) => {
       alignContent="center"
     >
       <Grid item xs={"12"} container justify="flex-start" alignItems={"center"}>
-        <MailRounded color="white" style={{ fontSize: 30 }}></MailRounded>
+        <MailRounded color="white" style={{ fontSize: 30 }} />
         <Typography
           variant={"subtitle1"}
           className={classes.white}
@@ -128,10 +128,11 @@ const Contacto = (props) => {
           id="outlined-textarea"
           fullWidth
           size="small"
-          placeholder="Placeholder"
+          placeholder="Correo..."
           multiline
           variant="filled"
           className={classes.bg_white}
+
         />
 
 
