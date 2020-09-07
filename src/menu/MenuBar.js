@@ -174,7 +174,7 @@ function ResponsiveDrawer(props) {
           inputProps={{ 'aria-label': 'Without label' }}
         >
 
-          <MenuItem value={'es-ES'} alignItems={}><div><InboxIcon/> Español</div></MenuItem>
+          <MenuItem value={'es-ES'} ><div><InboxIcon/> Español</div></MenuItem>
           <MenuItem value={'en-US'}>Inglés</MenuItem>
           <MenuItem value={'fr-FR'}>Frances</MenuItem>
         </Select>

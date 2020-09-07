@@ -35,7 +35,7 @@ const BannerPrincipal = (props) => {
 
         <div>
 
-            <ImageTittle image={'/img/banner_home.png'}
+            <ImageTittle image={'/img/banner_home.jpg'}
                          texto_right=""
                          variant=""
                          back={''}/>

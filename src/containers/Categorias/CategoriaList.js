@@ -46,7 +46,7 @@ const CategoriaList = (props) => {
     >
       <Grid item xs={12} lg={4} sm={6} container>
         <Link to={"/"} style={{textDecoration:"none"}}>
-          <ImageTittle image={'/img/jardineria.png'} min={'250px !important'}  variant="h4"
+          <ImageTittle image={'/img/jardineria.jpg'} min={'250px !important'}  variant="h4"
             texto_center="JARDINERIA"  
             opacity={'.5'}
           />
