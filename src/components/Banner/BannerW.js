@@ -1,13 +1,6 @@
 import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
-import Typography from "@material-ui/core/Typography";
 import {CssBaseline} from "@material-ui/core";
-import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
-import {ThemeProvider} from "@material-ui/styles";
-import ImageTittle from "../ImageTittle/ImageTittle";
-
 
 
 const useStyles = makeStyles((theme) => ({

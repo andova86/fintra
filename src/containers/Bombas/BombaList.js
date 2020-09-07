@@ -1,11 +1,10 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
+import {makeStyles} from "@material-ui/core/styles";
 import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
 
 import BombaItem from "../../components/Bomba/BombaItem";
 import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {

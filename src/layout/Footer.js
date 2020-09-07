@@ -1,11 +1,6 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
+import {makeStyles} from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import Divider from "@material-ui/core/Divider";
-import Typography from "@material-ui/core/Typography";
-import CssBaseline from "@material-ui/core/CssBaseline";
-import lightGreen from "@material-ui/core/colors/lightGreen";
 import Redes from "../components/Footer/Redes";
 import Secciones from "../components/Footer/Secciones";
 import Contacto from "../components/Footer/Contacto";

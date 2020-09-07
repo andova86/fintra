@@ -1,12 +1,8 @@
-import React, { useState } from "react";
-import { makeStyles } from "@material-ui/core/styles";
+import React, {useState} from "react";
+import {makeStyles} from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
-import { CssBaseline } from "@material-ui/core";
 import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
-import { ThemeProvider } from "@material-ui/styles";
-import ImageTittle from "../ImageTittle/ImageTittle";
 import Grid from "@material-ui/core/Grid";
-import Container from "@material-ui/core/Container";
 
 const Servicio = (props) => {
   const useStyles = makeStyles((theme) => ({
@@ -85,8 +81,8 @@ const Servicio = (props) => {
         alignItems="center"
         alignContent="center"
       >
-        <img src={imagen} className={classes.img} />
-      </Grid>
+        <img src={imagen} className={classes.img}  alt={texto}/>
+      </Grid>servicio
 
       <Grid item xs={"12"} container justify="center">
         <Typography variant={"h4"} className={classes.white} >

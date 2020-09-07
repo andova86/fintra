@@ -2,7 +2,7 @@ import React from "react";
 
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import Typography from "@material-ui/core/Typography";
-import { yellow, blue, grey } from "@material-ui/core/colors";
+import {blue, grey, yellow} from "@material-ui/core/colors";
 import Grid from "@material-ui/core/Grid";
 import Container from '@material-ui/core/Container';
 

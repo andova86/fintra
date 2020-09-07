@@ -1,11 +1,9 @@
-import React , {useState} from 'react';
+import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import Typography from "@material-ui/core/Typography";
 import {CssBaseline} from "@material-ui/core";
 import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
 import {ThemeProvider} from "@material-ui/styles";
-
-
 
 
 const Categoria = (props) => {

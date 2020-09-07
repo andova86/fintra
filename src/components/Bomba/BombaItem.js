@@ -2,10 +2,9 @@ import React from "react";
 
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import Typography from "@material-ui/core/Typography";
-import { yellow, blue, grey } from "@material-ui/core/colors";
+import {blue, grey, yellow} from "@material-ui/core/colors";
 import Grid from "@material-ui/core/Grid";
-import ImageTittle from '../../components/ImageTittle/ImageTittle'
-import { Paper } from "@material-ui/core";
+import {Paper} from "@material-ui/core";
 
 const BombaItem = (props) => {
   const useStyles = makeStyles((theme) => ({
@@ -79,7 +78,7 @@ const BombaItem = (props) => {
          <Grid item xs={10}  container justify="center">
           
              <img src={props.img} height="250px" width="100%" style={{objectFit:"contain", paddingTop:"10px"}}
-                         />
+                      alt='img'   />
  
          </Grid>
         

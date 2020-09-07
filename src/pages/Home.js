@@ -10,7 +10,7 @@ import BannerPrincipal from "../components/Banner/BannerPrincipal";
 import OfertaText from "../components/Oferta/OfertaText";
 import ImageTittle from "../components/ImageTittle/ImageTittle";
 import BombaList from "../containers/Bombas/BombaList";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import Button from "@material-ui/core/Button";
 import CategoriaList from "../containers/Categorias/CategoriaList";
 
@@ -164,7 +164,7 @@ const Home = (props) => {
                 justify={"center"}
                 className={(classes.control, classes.pad)}
               >
-                <img src={"/img/fintra_gris.PNG"} className={classes.img} />
+                <img src={"/img/fintra_gris.PNG"} className={classes.img} alt={"fintra_gris"}/>
               </Grid>
             </Grid>
           </Container>

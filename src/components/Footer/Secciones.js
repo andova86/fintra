@@ -4,13 +4,8 @@ import Typography from "@material-ui/core/Typography";
 
 import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
 import {ThemeProvider} from "@material-ui/styles";
-import ImageTittle from "../ImageTittle/ImageTittle";
 import Grid from "@material-ui/core/Grid";
-import Container from "@material-ui/core/Container";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import InstagramIcon from "@material-ui/icons/Instagram";
 import {Link} from "react-router-dom";
-import Button from '@material-ui/core/Button';
 import CssBaseline from "@material-ui/core/CssBaseline";
 
 

@@ -1,11 +1,6 @@
 import React from "react";
 
 import makeStyles from "@material-ui/core/styles/makeStyles";
-import Typography from "@material-ui/core/Typography";
-import { yellow, blue, grey } from "@material-ui/core/colors";
-import Grid from "@material-ui/core/Grid";
-import ImageTittle from "../../components/ImageTittle/ImageTittle";
-import { Paper } from "@material-ui/core";
 import Oferta from '../Oferta/Oferta'
 
 const BombaItem = (props) => {
